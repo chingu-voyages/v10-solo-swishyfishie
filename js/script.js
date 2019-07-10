@@ -11,7 +11,7 @@ function toggleAbout() {
     about.style.opacity = '1';
     app.style.opacity = '';
     contact.style.opacity = '';
-    mainSection.style.height = 'auto';
+    mainSection.style.height = '100vh';
   } else {
     
   }
@@ -22,7 +22,7 @@ function toggleApp() {
     about.style.opacity = '0';
     app.style.opacity = '1';
     contact.style.opacity = '';
-    mainSection.style.height = '55vh';
+    mainSection.style.height = '50vh';
   } else {
 
   }
