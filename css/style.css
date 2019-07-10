@@ -181,7 +181,7 @@ footer a {
   .main-section {
     margin: 0 auto;
     width: 95vw;
-    height: 1%;
+    height: auto;
     background-color: whitesmoke;
     box-shadow: 0px 20px 30px 1px rgba(0, 0, 0, 0.171);
     position: relative;
