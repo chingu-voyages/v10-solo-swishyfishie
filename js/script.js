@@ -11,7 +11,8 @@ function toggleAbout() {
     about.style.opacity = '1';
     app.style.opacity = '';
     contact.style.opacity = '';
-    mainSection.style.height = '100vh';
+    mainSection.style.height = '1450px';
+    mainSection.style.width = '90%';
   } else {
     
   }
@@ -22,7 +23,8 @@ function toggleApp() {
     about.style.opacity = '0';
     app.style.opacity = '1';
     contact.style.opacity = '';
-    mainSection.style.height = '50vh';
+    mainSection.style.height = '930px';
+    mainSection.style.width = '90vw';
   } else {
 
   }
@@ -33,7 +35,8 @@ function toggleContact() {
     about.style.opacity = '0';
     app.style.opacity = '';
     contact.style.opacity = '1';
-    mainSection.style.height = '50vh';
+    mainSection.style.height = '1250px';
+    mainSection.style.width = '350px';
   } else {
 
   }

@@ -112,6 +112,39 @@ hr {
   font-size: 1.3rem;
 }
 
+#contact{ 
+  text-align: center;
+  width: 100%;
+}
+
+fieldset > input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+fieldset > textarea {
+  width: 100%;
+  height: 200px;
+  padding: 0.5rem;
+}
+
+#contact-submit{
+  width: 100%;
+  padding: .5rem;
+  box-shadow: inset 1px 1px 20px 1px rgba(0, 162, 255, 0.164);
+}
+
+.resources {
+  margin: 6rem 0;
+  text-align: left;
+}
+
+.resources ul li {
+  list-style-type: none;
+}
+
 .mini-section h4{
   margin: 0 auto;
   font-size: 2rem;
@@ -196,6 +229,7 @@ footer a {
     text-align: center;
   }
 
+
   #about-me{
     opacity: 1;
     /* position: absolute; */
@@ -213,6 +247,20 @@ footer a {
     padding: 1rem;
     font-size: 1.3rem;
   }
+
+  #contact{
+    height: 550px;
+  }
+
+  .resources {
+    margin: 6rem 0;
+    text-align: left;
+  }
+
+  .resources ul li {
+    list-style-type: none;
+  }
+
 
   img {
     width: 100%;
