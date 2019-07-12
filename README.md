@@ -1,6 +1,7 @@
 # v10-solo-swishyfishie
 
-## Mental Health App (mockup) Website
+## Mental Health Awareness Website
 
-This is a website for an app idea of mine. This project will not include the actual app, but just the presentation.
+
+Website about mental health awareness, mindfulness, meditation and other self-help techniques. It's an informative website with an easy to use interface (WIP).
 
