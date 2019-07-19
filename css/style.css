@@ -14,6 +14,8 @@ body {
   width: 100%;
 }
 
+@media (min-width: 1000px) {
+  
 .navigation-menu{
   display: flex;
   justify-content: space-around;
@@ -56,3 +58,58 @@ body {
   background-color: rgba(51, 51, 51, 0.315);
   color: white;
 }
+
+.hamburger{
+  display: none;
+}
+
+}
+
+
+/* Larger than mobile */
+@media (max-width: 550px) {
+  .navigation-menu{
+   display: none;
+   text-align: center;
+   width: 100vw;
+   background-color: white;
+  }
+  
+[class^="drop-wrap"]{
+  position: relative;
+}
+
+[class^="dropdown"]{
+  border:none;
+  position: relative;
+}
+
+[class^="content"] {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+[class^="content"] a{
+  padding: 1rem;
+  text-decoration: none;
+}
+[class^="content"] a:hover{
+  background-color: rgba(51, 51, 51, 0.315);
+  color: white;
+}
+
+.hamburger {
+  background-color: white;
+  text-align: center;
+}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
