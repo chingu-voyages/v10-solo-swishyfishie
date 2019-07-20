@@ -32,12 +32,12 @@ persBtn.addEventListener('click', () => {
 })
 
 // HAMBURGER MENU
-navMenu.style.display = 'none';
+// navMenu.style.display = 'none';
 hamburgerBtn.addEventListener('click', () => {
-  if (navMenu.style.display == 'none') {
+  if (navMenu.style.display == '') {
     navMenu.style.display = 'inline-block'; 
   } else {
-    navMenu.style.display = 'none';
+    navMenu.style.display = '';
   }
 
 })

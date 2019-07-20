@@ -7,23 +7,36 @@
 }
 
 body {
-  background: #B79891;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100vh;
+  background: rgb(255, 255, 255);
+  height: 100%;
   width: 100%;
 }
 
-@media (min-width: 1000px) {
-  
+ /*GENERAL CLASSES  */
+ 
+.top-design {
+  background-color: whitesmoke;
+  color: #333;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: 1px 0px 10px 10px rgba(255, 255, 255, 0.048);
+  padding: .5rem;
+}
+
+ /*GENERAL CLASSES  */
+
+
+
 .navigation-menu{
   display: flex;
   justify-content: space-around;
   background-color: white;
+ 
 }
 
 [class^="drop-wrap"]{
   position: relative;
+  z-index: 99;
 }
 
 .drop-wrap-1:hover .content-psy{
@@ -63,53 +76,39 @@ body {
   display: none;
 }
 
-}
+/*HERO SECTIOn*/
 
-
-/* Larger than mobile */
-@media (max-width: 550px) {
-  .navigation-menu{
-   display: none;
-   text-align: center;
-   width: 100vw;
-   background-color: white;
-  }
-  
-[class^="drop-wrap"]{
+.hero-wrapper {
   position: relative;
-}
-
-[class^="dropdown"]{
-  border:none;
-  position: relative;
-}
-
-[class^="content"] {
-  position: relative;
-  display: none;
-  flex-direction: column;
-  background-color: white;
+  background: url('/PROJECTS/Mental_Awareness/img/black-and-white-cool-wallpaper-high-angle-shot-764880.jpg');
+  background-size: cover;
+  height: 100vh;
   width: 100%;
-  text-align: center;
-}
-[class^="content"] a{
-  padding: 1rem;
-  text-decoration: none;
-}
-[class^="content"] a:hover{
-  background-color: rgba(51, 51, 51, 0.315);
   color: white;
 }
 
-.hamburger {
+.hero-content {
+  z-index: 99;
+  padding: 7rem 0 0 7rem;
+  width: 50%;
+}
+
+/* About us section */
+
+.article-wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-us img {
+  width: 100%;
+}
+
+.article-card {
+  /* position: absolute; */
+  margin-bottom: 2rem;
+  padding: 2rem;
   background-color: white;
-  text-align: center;
+  box-shadow: 1px 0px 10px 3px rgba(51, 51, 51, 0.11);
+  width: 25%;
 }
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
