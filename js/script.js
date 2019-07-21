@@ -9,27 +9,27 @@ const navMenu = document.querySelector('.navigation-menu');
 
 // DROPDOWN MENUS 
 
-psyBtn.addEventListener('click', () => {
-    if (contentPsy.style.display == '') {
-      contentPsy.style.display = 'flex';
-    } else {
-      contentPsy.style.display = '';
-    }
-})
-mhBtn.addEventListener('click', () => {
-    if (contentMh.style.display == '') {
-      contentMh.style.display = 'flex';
-    } else {
-      contentMh.style.display = '';
-    }
-})
-persBtn.addEventListener('click', () => {
-    if (contentPers.style.display == '') {
-      contentPers.style.display = 'flex';
-    } else {
-      contentPers.style.display = '';
-    }
-})
+// psyBtn.addEventListener('click', () => {
+//     if (contentPsy.style.display == '') {
+//       contentPsy.style.display = 'flex';
+//     } else {
+//       contentPsy.style.display = '';
+//     }
+// })
+// mhBtn.addEventListener('click', () => {
+//     if (contentMh.style.display == '') {
+//       contentMh.style.display = 'flex';
+//     } else {
+//       contentMh.style.display = '';
+//     }
+// })
+// persBtn.addEventListener('click', () => {
+//     if (contentPers.style.display == '') {
+//       contentPers.style.display = 'flex';
+//     } else {
+//       contentPers.style.display = '';
+//     }
+// })
 
 // HAMBURGER MENU
 // navMenu.style.display = 'none';
