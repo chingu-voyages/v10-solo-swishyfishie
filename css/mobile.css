@@ -1,9 +1,14 @@
 .navigation-menu {
-  display: inline-block;
+  display: block;
+
 }
 
+.arrow-up{
+  display: block;
+}
 
 [class^="content"]{
+  margin: auto 0;
   position: block;
 }
 
