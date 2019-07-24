@@ -2,32 +2,33 @@
 const contentPsy = document.querySelector('.content-psy');
 const contentMh = document.querySelector('.content-mh');
 const contentPers = document.querySelector('.content-pers');
+const dropdownPsy = document.querySelector('.dropdown-psy');
+const dropdownMh = document.querySelector('.dropdown-mh');
+const dropdownPers = document.querySelector('.dropdown-pers');
+const navMenu = document.getElementsByClassName('drp');
+const CTN = document.querySelector('.ctn-wrapper');
+
 
 // dropdown menus
 
-contentPsy.addEventListener('click', () => {
+dropdownPsy.addEventListener('click', () => {
   contentPsy.classList.toggle('show');
+  navMenu[1].children[1].classList.remove('show');
+  navMenu[2].children[1].classList.remove('show');
 })
-contentMh.addEventListener('click', () => {
+dropdownMh.addEventListener('click', () => {
   contentMh.classList.toggle('show');
+  navMenu[0].children[1].classList.remove('show');
+  navMenu[2].children[1].classList.remove('show');
 })
-contentPers.addEventListener('click', () => {
+dropdownPers.addEventListener('click', () => {
   contentPers.classList.toggle('show');
+  navMenu[0].children[1].classList.remove('show');
+  navMenu[1].children[1].classList.remove('show');
 })
 
-
-
-
-
-
-// close the menus if user clicks outside them 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropdown-psy') ||!event.target.matches('.dropdown-mh') || !event.target.matches('.dropdown-pers') ) {
-    for ( let i = 0; i < contentPsy.length; i++) {
-      const openDropdown = contentPsy[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+CTN.addEventListener('click', ()=>{
+  for (let i = 0; i<navMenu.length; i++){
+    navMenu[i].children[1].classList.remove('show');
   }
-}
+})
