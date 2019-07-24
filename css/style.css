@@ -103,7 +103,7 @@ body {
 
 .hero-wrapper {
   position: relative;
-  background: url('/PROJECTS/Mental_Awareness/img/black-and-white-cool-wallpaper-high-angle-shot-764880.jpg');
+  background: url('../img/black-and-white-cool-wallpaper-high-angle-shot-764880.jpg');
   background-size: cover;
   /* background-attachment: fixed; */
   height: 100vh;
@@ -141,7 +141,7 @@ body {
 /* Spacing black section */
 
 .spacing-black-section{
-  background: url('/PROJECTS/Mental_Awareness/img/bloom-blossom-flora-65924.jpg');
+  background: url('../img/bloom-blossom-flora-65924.jpg');
   background-size: cover;
   background-attachment: fixed;
   width: 100%;

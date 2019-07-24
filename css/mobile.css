@@ -62,9 +62,7 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
   padding: 2rem;
 }
 
-.hero-wrapper{
-  background: #333;
-}
+
 
 .article-wrap {
   display: block;
@@ -77,7 +75,6 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
 .spacing-black-section{
   background-size: center;
   display: block;
-  background: #333;
 }
 
 .sides{
