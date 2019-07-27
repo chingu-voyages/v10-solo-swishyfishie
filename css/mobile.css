@@ -68,7 +68,7 @@
 }
 
 .drop-links {
-  color: white ;
+  color: white !important;
   text-decoration: none;
   font-size: 1rem
   
@@ -85,9 +85,10 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
 
 .hero-content {
   width: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
+  background: none;
+  color: white;
 }
-
 
 
 .article-wrap {
@@ -96,7 +97,29 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
 
 .article-card {
   width: 100%;
+  margin: 1em 0 ;
+  text-align: center;
 }
+
+.article-card p {
+  text-align: left;
+}
+
+.article-card a {
+  background-color: whitesmoke;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid grey;
+}
+
+.article-card h5 {
+  background-color: whitesmoke;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.219);
+}
+
+
 
 .spacing-black-section{
   background-size:190%;

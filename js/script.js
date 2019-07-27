@@ -7,6 +7,7 @@ const dropdownMh = document.querySelector('.dropdown-mh');
 const dropdownPers = document.querySelector('.dropdown-pers');
 const navMenu = document.getElementsByClassName('drp');
 const CTN = document.querySelector('.ctn-wrapper');
+const heroCont = document.querySelector('.hero-content');
 
 
 // dropdown menus
@@ -32,3 +33,13 @@ CTN.addEventListener('click', ()=>{
     navMenu[i].children[1].classList.remove('show');
   }
 })
+
+
+// HERO ONLOAD 
+
+window.onload = () => {
+  setTimeout(()=>{
+    heroCont.classList.add('hero-cont-block');
+  }, 1000);
+}
+
