@@ -9,23 +9,20 @@ const navMenu = document.getElementsByClassName('drp');
 const CTN = document.querySelector('.ctn-wrapper');
 const heroCont = document.querySelector('.hero-content');
 
+const drpBtns = document.querySelectorAll('.drpBtn')
+const contentList = document.querySelectorAll('.content-list');
 
 // dropdown menus
 
-dropdownPsy.addEventListener('click', () => {
-  contentPsy.classList.toggle('show');
-  navMenu[1].children[1].classList.remove('show');
-  navMenu[2].children[1].classList.remove('show');
-})
-dropdownMh.addEventListener('click', () => {
-  contentMh.classList.toggle('show');
-  navMenu[0].children[1].classList.remove('show');
-  navMenu[2].children[1].classList.remove('show');
-})
-dropdownPers.addEventListener('click', () => {
-  contentPers.classList.toggle('show');
-  navMenu[0].children[1].classList.remove('show');
-  navMenu[1].children[1].classList.remove('show');
+
+drpBtns.forEach((tab, index) => {
+  tab.addEventListener('click', () =>{
+    const contentList = document.querySelectorAll('.content-list');
+      contentList.forEach((content, index) =>{
+        content.classList.remove('show');
+      })
+      contentList[index].classList.toggle('show');
+  })
 })
 
 CTN.addEventListener('click', ()=>{
@@ -42,4 +39,7 @@ window.onload = () => {
     heroCont.classList.add('hero-cont-block');
   }, 1000);
 }
+
+
+
 
