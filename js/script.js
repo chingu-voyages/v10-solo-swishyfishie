@@ -1,16 +1,10 @@
-
-const contentPsy = document.querySelector('.content-psy');
-const contentMh = document.querySelector('.content-mh');
-const contentPers = document.querySelector('.content-pers');
-const dropdownPsy = document.querySelector('.dropdown-psy');
-const dropdownMh = document.querySelector('.dropdown-mh');
-const dropdownPers = document.querySelector('.dropdown-pers');
-const navMenu = document.getElementsByClassName('drp');
+const navMenu = document.querySelector('.drp');
 const CTN = document.querySelector('.ctn-wrapper');
 const heroCont = document.querySelector('.hero-content');
-
 const drpBtns = document.querySelectorAll('.drpBtn')
-const contentList = document.querySelectorAll('.content-list');
+const modal = document.querySelector('#myModal');
+const modalBtn = document.querySelector('#modalBtn');
+const closeModal = document.querySelector('.close-btn');
 
 // dropdown menus
 
@@ -26,10 +20,12 @@ drpBtns.forEach((tab, index) => {
 })
 
 CTN.addEventListener('click', ()=>{
-  for (let i = 0; i<navMenu.length; i++){
+  for (let i = 0; i < navMenu.length; i++){
     navMenu[i].children[1].classList.remove('show');
   }
 })
+
+CTN
 
 
 // HERO ONLOAD 
@@ -41,5 +37,18 @@ window.onload = () => {
 }
 
 
+// Modal 
 
+modalBtn.addEventListener('click', ()=>{
+  modal.style.display = 'block';
+})
 
+closeModal.addEventListener('click', ()=>{
+  modal.style.display = 'none';
+})
+
+window.addEventListener('click', (e)=>{
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+})

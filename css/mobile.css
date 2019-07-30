@@ -3,9 +3,6 @@
 
 }
 
-.arrow-up{
-  display: block;
-}
 
 [class^="content"]{
   margin: auto 0;
@@ -17,24 +14,6 @@
   /* transition: all 1s ease-in-out; */
 }
 
-.dropdown-psy::after{
-  content: " \02795";
-}
-.dropdown-psy:focus::after{
-  content: " \2212";
-}
-.dropdown-mh::after{
-  content: " \02795";
-}
-.dropdown-mh:focus::after{
-  content: " \2212";
-}
-.dropdown-pers::after{
-  content: " \02795";
-}
-.dropdown-pers:focus::after{
-  content: " \2212";
-}
 .drop-wrap-1 .content-psy{
   position: relative;
   display: none;
@@ -99,6 +78,7 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
   width: 100%;
   margin: 1em 0 ;
   text-align: center;
+  border: none;
 }
 
 .article-card p {
@@ -123,7 +103,20 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
 
 .spacing-black-section{
   background-size:190%;
-  display: block;
+  display: flex;
+}
+.spacing-black-section div img {
+  display: none;
+}
+
+.modal{ 
+  margin: 5rem 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+.modal p {
+  width: auto;
 }
 
 .sides{
