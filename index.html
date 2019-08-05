@@ -1,158 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mentally</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <script src="https://kit.fontawesome.com/72e4802971.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mentally</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <script src="https://kit.fontawesome.com/72e4802971.js"></script>
-</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="navigation-menu">
+          <button class="dropdown-home">Home</button>
+          <div class="drop-wrap-1 drp">
+            <button class="dropdown-psy drpBtn">
+              <a href="#psych">Psychology</a>
+            </button>
+          </div>
+          <div class="drop-wrap-2 drp">
+            <button class="dropdown-mh drpBtn">Mental Health</button>
+          </div>
+          <div class="drop-wrap-3 drp">
+            <button class="dropdown-pers drpBtn">Personality</button>
+          </div>
+        </nav>
+      </header>
+      <!-- HERO SECTION -->
 
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <nav class="navigation-menu">
-        <button class="dropdown-home">Home</button>
-        <div class="drop-wrap-1 drp">
-          <button class="dropdown-psy drpBtn">Psychology</button>
-        </div>
-        <div class="drop-wrap-2 drp">
-          <button class="dropdown-mh drpBtn">Mental Health</button>
-        </div>
-        <div class="drop-wrap-3 drp">
-          <button class="dropdown-pers drpBtn">Personality</button>
-        </div>
-      </nav>
-    </header>
-    <!-- HERO SECTION -->
+      <div class="ctn-wrapper">
+        <section class="hero-wrapper">
+          <div class="hero-content">
+            <h4 class="top-design">Who are we ?</h4>
+            <h2>Mentally team welcomes you</h2>
+            <p>
+              Our aim is to proide information and free annonymous counseling
+              over the internet.
+            </p>
+            <p>
+              <a href="#modalBtn">Send us a message </a> and one of our
+              volunteer psychologists will respond to you as soon as possible.
+            </p>
+            <p>
+              Meanwhile, we invite you to explore the fascinating world of
+              psychology.
+            </p>
+            <button class="button-primary">
+              <a href="#message">Contact us</a>
+            </button>
+          </div>
+        </section>
 
-    <div class="ctn-wrapper">
-      <section class="hero-wrapper">
-        <div class="hero-content">
-          <h4 class="top-design">Who are we ?</h4>
-          <h2>Mentally team welcomes you</h2>
-          <p>Our aim is to proide information and free annonymous counseling over the internet.</p>
-             <p><a href="#modalBtn">Send us a message </a> and one of our volunteer psychologists will respond to you as soon as possible.</p>
-             <p>Meanwhile, we invite you to explore the fascinating world of psychology.</p>
-          <button class="button-primary">Read More</button>
-        </div>
-      </section>
-
-      <!-- About us section -->
-      <section class="about-us">
-        <h2 class="top-design">Recent articles</h2>
-        <div class="article-wrap">
-          <article class="article-card">
-            <h5>Myer Briggs Personality Test</h5>
-            <img src="img/sandra-seitamaa-7-3cGWyQlV0-unsplash.jpg" alt="hands-covered-in-paint">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore laborum totam repudiandae tempora
-              deserunt voluptas. Suscipit adipisci neque, amet corrupti provident veniam itaque dolorem perspiciatis
-              quod sequi eos placeat nam!Nulla omnis amet quae veniam.</p>
-            <a href="https://www.16personalities.com/free-personality-test">Test yourself here</a>
-          </article>
-          <article class="article-card">
-            <h5>Common sense or social construct?</h5>
-            <img src="img/jens-johnsson-Ae5jmF2PJXg-unsplash.jpg" alt="people-in-train-station">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore laborum totam repudiandae tempora
-              deserunt voluptas. Suscipit adipisci neque, amet corrupti provident veniam itaque dolorem perspiciatis
-              quod sequi eos placeat nam!Nulla omnis amet quae veniam.</p>
-            <a href="https://www.open.edu/openlearn/people-politics-law/politics-policy-people/sociology/social-problems-who-makes-them/content-section-5.1">Learn more</a>
-          </article>
-          <article class="article-card">
-            <h5>Introduction to neuroscience</h5>
-            <img src="img/sander-weeteling-4I41IQtmSs0-unsplash.jpg" alt="blue-colors">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore laborum totam repudiandae tempora
-                deserunt voluptas. Suscipit adipisci neque, amet corrupti provident veniam itaque dolorem perspiciatis
-                quod sequi eos placeat nam!Nulla omnis amet quae veniam. </p>
-              <a href="https://www.nature.com/subjects/neuroscience">Learn more</a>
-          </article>
-        </div>
-      </section>
-      <!-- spacing  section -->
-      <section class="spacing-black-section">
-        <div><img src="../img/lesly-juarez-DFtjXYd5Pto-unsplash.jpg" alt="mental-health-image">
-        </div>
-        <div class="modal">
-          <h3>This title is here</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus possimus tempore nobis accusantium quod
-            quis in. Consequuntur, voluptatum! Unde eligendi id dolore facere velit nisi fuga at, repellendus excepturi
-            libero.</p>
-          <button id="modalBtn">Send us a message</button>
-        </div>
-        <div id="myModal" class="modal-main">
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <div id="form-container">
-
-              <form class="main-form">
-                <div>
-                  <h1>Contact us</h1>
-                  <p>You can send your feedback or questions here and we will answer shortly</p>
-                </div>
-                <ul class="form-list">
-                  <li>
-                    <span>
-                      <label>First name</label>
-                      <input id="element_2_1" name="element_2_1" class="element text" maxlength="255" size="8"
-                        value="" />
-                    </span>
-                    <span>
+        <!-- About us section -->
+        <section class="about-us">
+          <h2 class="top-design" id="psych">Recent Articles : Psychology</h2>
+          <div class="article-wrap">
+            <article class="article-card">
+              <h5>Myer Briggs Personality Test</h5>
+              <img
+                src="img/sandra-seitamaa-7-3cGWyQlV0-unsplash.jpg"
+                alt="hands-covered-in-paint"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                laborum totam repudiandae tempora deserunt voluptas. Suscipit
+                adipisci neque, amet corrupti provident veniam itaque dolorem
+                perspiciatis quod sequi eos placeat nam!Nulla omnis amet quae
+                veniam.
+              </p>
+              <a href="https://www.16personalities.com/free-personality-test"
+                >Test yourself here</a
+              >
+            </article>
+            <article class="article-card">
+              <h5>Common sense or social construct?</h5>
+              <img
+                src="img/jens-johnsson-Ae5jmF2PJXg-unsplash.jpg"
+                alt="people-in-train-station"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                laborum totam repudiandae tempora deserunt voluptas. Suscipit
+                adipisci neque, amet corrupti provident veniam itaque dolorem
+                perspiciatis quod sequi eos placeat nam!Nulla omnis amet quae
+                veniam.
+              </p>
+              <a
+                href="https://www.open.edu/openlearn/people-politics-law/politics-policy-people/sociology/social-problems-who-makes-them/content-section-5.1"
+                >Learn more</a
+              >
+            </article>
+            <article class="article-card">
+              <h5>Introduction to neuroscience</h5>
+              <img
+                src="img/sander-weeteling-4I41IQtmSs0-unsplash.jpg"
+                alt="blue-colors"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                laborum totam repudiandae tempora deserunt voluptas. Suscipit
+                adipisci neque, amet corrupti provident veniam itaque dolorem
+                perspiciatis quod sequi eos placeat nam!Nulla omnis amet quae
+                veniam.
+              </p>
+              <a href="https://www.nature.com/subjects/neuroscience"
+                >Learn more</a
+              >
+            </article>
+          </div>
+        </section>
+        <!-- spacing  section -->
+        <section class="spacing-black-section" id="message">
+          <div>
+            <img
+              src="img/lesly-juarez-DFtjXYd5Pto-unsplash.jpg"
+              alt="mental-health-image"
+            />
+          </div>
+          <div class="modal">
+            <h3>This title is here</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+              possimus tempore nobis accusantium quod quis in. Consequuntur,
+              voluptatum! Unde eligendi id dolore facere velit nisi fuga at,
+              repellendus excepturi libero.
+            </p>
+            <button id="modalBtn">Send us a message</button>
+          </div>
+          <div id="myModal" class="modal-main">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <div id="form-container">
+                <form class="main-form">
+                  <div>
+                    <h1>Contact us</h1>
+                    <p>
+                      You can send your feedback or questions here and we will
+                      answer shortly
+                    </p>
+                  </div>
+                  <ul class="form-list">
+                    <li>
+                      <span>
+                        <label>First name</label>
+                        <input
+                          id="element_2_1"
+                          name="element_2_1"
+                          class="element text"
+                          maxlength="255"
+                          size="8"
+                          value=""
+                        />
+                      </span>
+                      <span>
                         <label>Last name</label>
-                      <input id="element_2_2" name="element_2_2" class="element text" maxlength="255" size="14"
-                        value="" />
-                    </span>
-                  </li>
-                  <li>
-                    <label class="description" for="element_3">Phone (optional) </label>
-                    <div>
-                      <input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255"
-                        value="" />
-                    </div>
-                  </li>
-                  <li>
-                    <label class="description" for="element_1">Your message </label>
-                    <div>
-                      <textarea id="element_1" name="element_1" class="element textarea medium"></textarea>
-                    </div>
-                  </li>
-                  <li class="buttons">
-                    <input id="saveForm" class="button-text" type="submit" name="submit" value="Submit" />
-                  </li>
-                </ul>
-                <p>Mentally.com</p>
-              </form>
+                        <input
+                          id="element_2_2"
+                          name="element_2_2"
+                          class="element text"
+                          maxlength="255"
+                          size="14"
+                          value=""
+                        />
+                      </span>
+                    </li>
+                    <li>
+                      <label class="description" for="element_3"
+                        >Phone (optional)
+                      </label>
+                      <div>
+                        <input
+                          id="element_3"
+                          name="element_3"
+                          class="element text medium"
+                          type="text"
+                          maxlength="255"
+                          value=""
+                        />
+                      </div>
+                    </li>
+                    <li>
+                      <label class="description" for="element_1"
+                        >Your message
+                      </label>
+                      <div>
+                        <textarea
+                          id="element_1"
+                          name="element_1"
+                          class="element textarea medium"
+                        ></textarea>
+                      </div>
+                    </li>
+                    <li class="buttons">
+                      <input
+                        id="saveForm"
+                        class="button-text"
+                        type="submit"
+                        name="submit"
+                        value="Submit"
+                      />
+                    </li>
+                  </ul>
+                  <p>Mentally.com</p>
+                </form>
+              </div>
             </div>
           </div>
+        </section>
 
-        </div>
-      </section>
+        <!-- Other projects section -->
+        <!-- <section class="other-projects">
+          <h2 class="top-design">Self-Help App</h2>
+          <div class="other-projects-container"></div>
+        </section> -->
 
-      <!-- Other projects section -->
-      <section class="other-projects">
-        <h2 class="top-design">Our other projects</h2>
-        <div class="other-projects-container">
+        <!-- FOOTER -->
 
-        </div>
-      </section>
-
-      <!-- FOOTER -->
-
-      <section class="footer">
-        <h5>Copyright &copy; 2019. All rights reserved <a href="https://github.com/Swishyfishie">Andrei Claudiu</a></h5>
-        <div class="social">
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-linkedin"></i></a>
-          <a href=""><i class="fab fa-github"></i></a>
-        </div>
-      </section>
+        <section class="footer">
+          <h5>
+            Copyright &copy; 2019. All rights reserved
+            <a href="https://github.com/Swishyfishie">Andrei Claudiu</a>
+          </h5>
+          <div class="social">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
-  <script src="js/script.js"></script>
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>

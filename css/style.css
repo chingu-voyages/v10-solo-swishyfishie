@@ -20,7 +20,7 @@ body {
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.192);
   box-shadow: 1px 0px 10px 10px rgba(255, 255, 255, 0.048);
-  padding: .5rem;
+  padding: 0.5rem;
   width: 50%;
   margin: 0 auto;
   transform: translateY(-30px);
@@ -28,7 +28,7 @@ body {
 }
 
 button {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 /*GENERAL CLASSES  */
@@ -37,7 +37,6 @@ button {
   display: flex;
   justify-content: space-around;
   background-color: white;
-
 }
 
 .drop-links {
@@ -61,17 +60,20 @@ button {
   background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: 0% 1px;
-  transition: background-size .3s;
+  transition: background-size 0.3s;
 }
-
+.dropBtn a:hover {
+  background: none;
+}
 a {
-  color: inherit!important;
+  color: inherit !important;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #fff!important;
+/* a:hover {
+  color: #fff !important;
   background: #333 !important;
-}
+} */
 
 [class^="dropdown"]:hover {
   background-size: 100% 1px;
@@ -86,7 +88,6 @@ a:hover {
   background-color: white;
   width: 100%;
   text-align: center;
-  
 }
 
 [class^="content"] a {
@@ -102,7 +103,7 @@ a:hover {
 
 .hero-wrapper {
   position: relative;
-  background-image: url('../img/bady-qb-MDgRcuGYu58-unsplash.jpg');
+  background-image: url("../img/bady-qb-MDgRcuGYu58-unsplash.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -115,7 +116,7 @@ a:hover {
   align-self: center;
   height: 100vh;
   text-align: center;
-  box-shadow: inset 0px 5px 54px -3px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 54px -3px rgba(0, 0, 0, 0.75);
 }
 
 .hero-content {
@@ -127,18 +128,15 @@ a:hover {
   animation: hero-animation;
   animation-duration: 2s;
   border: 1px solid black;
-
 }
 
 @keyframes hero-animation {
   0% {
-    opacity: 0
+    opacity: 0;
   }
-  ;
   100% {
-    opacity: 1
+    opacity: 1;
   }
-  ;
 }
 
 /* About us section */
@@ -153,7 +151,6 @@ a:hover {
 }
 
 .about-us h2 {
-
 }
 
 .article-card {
@@ -164,8 +161,8 @@ a:hover {
   box-shadow: 1px 0px 10px 3px rgba(51, 51, 51, 0.11);
   width: 25%;
   text-align: center;
-  transition-duration: .2s;
-  border: 1px outset #1C6EA4;
+  transition-duration: 0.2s;
+  border: 1px outset #1c6ea4;
   border-radius: 9px 0px 0px 0px;
 }
 
@@ -199,7 +196,7 @@ a:hover {
 /* Spacing black section */
 
 .spacing-black-section {
-  background-color: #496A97;
+  background-color: #496a97;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%238ecdf3' fill-opacity='0.05'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   width: 100%;
   height: 110vh;
@@ -219,14 +216,15 @@ a:hover {
   flex-direction: column;
   height: 24rem;
   border: 1px white outset;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.modal:hover{
+.modal:hover {
   box-shadow: -50px -0px 1000px 5px rgba(255, 255, 255, 0.438);
 }
 
-.modal h3, .modal p {
+.modal h3,
+.modal p {
   text-align: right;
   width: 70%;
   margin: auto 0 auto auto;
@@ -289,19 +287,18 @@ a:hover {
 
 /* FORM */
 
-.main-form{
+.main-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .main-form h1 {
   text-align: center;
 }
 
-.main-form input{
-    width: 100%;
+.main-form input {
+  width: 100%;
 }
 
 .form-list {
@@ -313,7 +310,6 @@ a:hover {
   resize: none;
   width: 100%;
 }
-
 
 /* Footer */
 

@@ -1,37 +1,43 @@
 .navigation-menu {
   display: block;
-
 }
 
-
-[class^="content"]{
+[class^="content"] {
   margin: auto 0;
   position: block;
 }
 
-[class^="dropdown"]{
+[class^="dropdown"] {
   background: none;
   /* transition: all 1s ease-in-out; */
 }
 
-.drop-wrap-1 .content-psy{
+.drop-wrap-1 .content-psy {
   position: relative;
   display: none;
   padding: 0;
 }
-.drop-wrap-2 .content-mh{
-  position:relative;
+.drop-wrap-2 .content-mh {
+  position: relative;
   display: none;
   padding: 0;
 }
-.drop-wrap-3 .content-pers{
-  position:relative;
+.drop-wrap-3 .content-pers {
+  position: relative;
   display: none;
   padding: 0;
 }
 
+.drop-wrap-3 {
+  margin-bottom: 1rem;
+}
+
 .show {
   display: flex;
+}
+
+#psych {
+  width: 100%;
 }
 
 [class^="content"] {
@@ -49,16 +55,19 @@
 .drop-links {
   color: white !important;
   text-decoration: none;
-  font-size: 1rem
-  
+  font-size: 1rem;
 }
 .drop-links:hover {
-color: #333 !important;
+  color: #333 !important;
   background-color: white !important;
-box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
+  box-shadow: inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
 }
 
-.hero-wrapper{
+.about-us {
+  margin-top: 5rem;
+}
+
+.hero-wrapper {
   height: auto;
 }
 
@@ -69,16 +78,20 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
   color: white;
 }
 
-
 .article-wrap {
   display: block;
 }
 
 .article-card {
   width: 100%;
-  margin: 1em 0 ;
+  margin: 1em 0;
   text-align: center;
   border: none;
+}
+
+.article-card img {
+  width: 100%;
+  margin: 0;
 }
 
 .article-card p {
@@ -99,17 +112,15 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.219);
 }
 
-
-
-.spacing-black-section{
-  background-size:190%;
+.spacing-black-section {
+  background-size: 190%;
   display: flex;
 }
 .spacing-black-section div img {
   display: none;
 }
 
-.modal{ 
+.modal {
   margin: 5rem 0;
   padding: 2rem;
   width: 100%;
@@ -119,10 +130,25 @@ box-shadow:inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
   width: auto;
 }
 
-.sides{
+.form-list {
+  width: 100%;
+}
+
+.sides {
   width: 100%;
   margin: 5rem 0;
   padding: 5rem;
   background-color: rgba(79, 2, 102, 0.253);
   box-shadow: 1px 0px 10px 1px rgba(123, 1, 160, 0.123);
+}
+
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.footer h5 {
+  margin-bottom: 2.5rem;
 }
